@@ -1,6 +1,6 @@
 {
   "name": "@mesh3d/cesium-vectortile-gl",
-  "version": "0.5.2",
+  "version": "0.5.3",
   "description": "CesiumJS 矢量瓦片渲染库",
   "main": "dist/cvt-gl.js",
   "module": "index.js",

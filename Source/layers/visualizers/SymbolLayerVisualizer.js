@@ -399,7 +399,7 @@ export class SymbolLayerVisualizer extends ILayerVisualizer {
         }
       }
 
-      if (this.state === 'none' && preCommandList.length > 0) {
+      if (this.state === 'none' && this.commandList.length > 0) {
         this.setState('done')
       }
       if (this.primitive._state === Cesium.PrimitiveState.FAILED) {
